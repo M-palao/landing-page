@@ -74,6 +74,20 @@ a {
     color: #f9faf8
 }
 
+.card-section {
+    padding-bottom: 85px;
+}
+
+.cards-container {
+    display: flex;
+}
+
+.card-image {
+    width: 170px;
+    border-radius: 15px;
+    border: 4px solid #3882f6;
+}
+
 .call {
     background-color: #3882f6;
 }
