@@ -96,8 +96,32 @@ a {
     text-align: center;
 }
 
-.call {
+.cta-section {
+    margin: 85px;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-containter {
+    display: flex;
     background-color: #3882f6;
+    border-radius: 8px;
+    padding: 40px;
+    width: 900px;
+    justify-content: space-around;
+}
+
+.call {
+    color: white;
+    font-size: 21px;
+}
+
+.call-subtext {
+    color: #e7eae5;
+}
+
+.cta-button {
+    border: 2px solid white;
 }
 
 button {
@@ -140,4 +164,14 @@ button {
 
 .quote-container {
     width: 750px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.footer-text {
+    color: white;
 }
