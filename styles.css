@@ -76,16 +76,24 @@ a {
 
 .card-section {
     padding-bottom: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .cards-container {
     display: flex;
+    gap: 40px;
 }
 
 .card-image {
     width: 170px;
     border-radius: 15px;
     border: 4px solid #3882f6;
+}
+.card-text {
+    width: 160px;
+    text-align: center;
 }
 
 .call {
@@ -106,14 +114,30 @@ button {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    padding: 40px 0;
 }
 
 .quote-section {
     background-color: #e5e7eb;
+    padding-top: 85px;
+    padding-bottom: 69px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .quote-text {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
+}
+
+.quote-credit {
+    text-align: right;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.quote-container {
+    width: 750px;
 }
